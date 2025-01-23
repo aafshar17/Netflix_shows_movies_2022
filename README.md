@@ -1,7 +1,7 @@
 # **Netflix_shows_movies_2022**
 
 # **Languages/Tools used**: PostgreSQL, Power Query, Power BI (Visuals and Dashboard) 
-# [Datasets referenced][([https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv])
+# [Datasets referenced](https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?select=titles.csv)
 # PostgreSQL Data Analysis Code
 # Netflix Shows and Movies Power BI Dashboard 
 
