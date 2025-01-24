@@ -31,6 +31,7 @@ WHERE type = 'SHOW';
 There are 3,744 movies and 2,106 TV shows present in this dataset. 
 
 # 2. What are the top 10 and worst 10 movies based on IMDB score?
+
 ```sql 
 SELECT title, type, imdb_score
 FROM titles
@@ -68,6 +69,14 @@ LIMIT 10;
 Result:
 
 ![top_10_TV_shows_sql_result](https://github.com/user-attachments/assets/25f8bc9a-317e-4032-bd47-5f9d8bb9fec2)
+
+```sql 
+SELECT title, type, imdb_score
+FROM titles
+WHERE type = 'SHOW'
+ORDER BY imdb_score ASC
+LIMIT 10;
+```
 
 Result:
 
