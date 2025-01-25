@@ -100,7 +100,7 @@ Result:
 
 ![genre_with_most_movies_sql_result](https://github.com/user-attachments/assets/477f57c7-7bb9-4318-8ffa-5232798a722a)
 
-# 5. WHich genres had the most TV shows?
+# 5. Which genres had the most TV shows?
 
 ```sql
 SELECT genres, 
@@ -172,7 +172,7 @@ Result:
 
 Which leads to a natural follow-up question of... 
 
-# 9. WHich release year had the greatest number of titles?
+# 9. Which release year had the greatest number of titles?
 
 ```sql
 SELECT release_year, 
