@@ -1,15 +1,11 @@
 Question 1: How many movies are in this dataset?
 
-```sql
 SELECT COUNT(*)
 FROM titles
 WHERE type = 'MOVIE';
-```
 
 Question 2: How many TV shows are in this dataset?
 
-```sql
 SELECT COUNT(*)
 FROM titles
 WHERE type = 'SHOW';
-```
