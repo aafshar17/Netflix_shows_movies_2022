@@ -1,0 +1,19 @@
+Question 11: What were the total number of titles for each release year?
+
+SELECT release_year, 
+COUNT(*) AS title_count
+FROM titles as t 
+GROUP BY release_year
+ORDER BY release_year DESC
+
+Question 12: Which release year had the greatest number of titles? 
+
+SELECT release_year, 
+COUNT(*) AS title_count
+FROM titles as t 
+GROUP BY release_year
+ORDER BY title_count DESC
+LIMIT 1;
+
+We can see that the year 2019 had the greatest number of titles released with 836 combined movie and TV show titles. Let's examine this release year 2019 in more detail now
+such as which genre had the most titles and which titles along with their respective types were classified in this genre. 
