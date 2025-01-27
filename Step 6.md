@@ -46,7 +46,7 @@ ORDER BY imdb_score DESC
 LIMIT 1;
 ```
 
-
+![Step 6 Q15 Result](/Step_6_Q15_sql_result.jpg)
 
 Dave Chappelle's comedy special Sticks & Stones had the highest IMDB score with a score of 8.4 for the 
 Comedy titles released in 2019. 
