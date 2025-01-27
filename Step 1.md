@@ -8,7 +8,7 @@ FROM titles
 WHERE type = 'MOVIE';
 ```
 
-![Step 1 Q1 Result](/Step_1_Q1_sql_result.jpg)
+![Step 1 Q1 Result](/Step1_Q1_sql_result.jpg)
 
 Question 2: How many TV shows are in this dataset?
 
