@@ -10,7 +10,7 @@ GROUP BY release_year
 ORDER BY release_year DESC
 ```
 
-![Step 5 Q11 Result](/Step_5_Q11_sql_result.jpg)
+![Step 5 Q11 Result](/Step_5_Q11__sql_result.jpg.jpg)
 
 Question 12: Which release year had the greatest number of titles? 
 
