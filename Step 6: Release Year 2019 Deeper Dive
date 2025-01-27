@@ -20,7 +20,8 @@ ORDER BY COUNT(title) DESC
 LIMIT 1)
 ORDER BY title ASC; 
 
-The comedy genre had the most titles in 2019 with 79 total titles released. This validates our early finding that the Comedy genre is definitely the most popular genre on  
+The comedy genre had the most titles in 2019 with 79 total titles released. This validates our early finding that 
+the Comedy genre is overall the most popular genre on Netflix.   
 
 Question 15: Which of the titles in the Comedy genre for 2019 had the highest IMDB score?
 
@@ -33,5 +34,6 @@ AND imdb_score IS NOT NULL
 ORDER BY imdb_score DESC
 LIMIT 1;
 
-Dave Chappelle's comedy special Sticks & Stones had the highest IMDB score with a score of 8.4 for the Comedy titles released in 2019. 
+Dave Chappelle's comedy special Sticks & Stones had the highest IMDB score with a score of 8.4 for the 
+Comedy titles released in 2019. 
 
