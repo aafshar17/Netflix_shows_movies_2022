@@ -1,11 +1,17 @@
+**Step 4**: **Number of Movies and TV Shows by Decade**
+
 Question 10: How many of Netflix's offered movies and TV shows are in each decade?
 
+```sql
 SELECT CONCAT(FLOOR(release_year/ 10) * 10, 's') AS decade,
 COUNT(*) AS movies_shows_count
 FROM titles
 WHERE release_year >= 1940
 GROUP BY CONCAT(FLOOR(release_year/ 10) * 10, 's')
 ORDER BY decade;
+```
+
+![Step 4 Q10 Result](/Step_4_Q10_sql_result.jpg)
 
 Examining this query's result provides valuable insight into the distribution of movies and shows across different decades in Netflix's 
 library. There is a sizeable increase in the number of titles from the 2000s onwards. Netflix's collection from the earlier decades 
