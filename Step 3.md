@@ -26,7 +26,7 @@ ORDER BY number_of_titles DESC
 LIMIT 10;
 ```
 
-![Step 3 Q8 Result](/Step_2_Q8_sql_result.jpg)
+![Step 3 Q8 Result](/Step_3_Q8_sql_result.jpg)
 
 Question 9: What are the top 3 most common genres?
 
